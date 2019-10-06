@@ -160,7 +160,71 @@ public class mobil2 extends AppCompatActivity {
                     }
                     else{
                         if(premj==3){
+                            if(tst3==14){
+                                if(cb[3]=="o"){
+                                    b9.setImageResource(R.drawable.imgomdpi);
+                                    b9.setEnabled(false);
+                                    cb[9]="o";
 
+                                }
+                                else{
+                                    if(cb[9]=="o"){
+                                        b7.setImageResource(R.drawable.imgomdpi);
+                                        b7.setEnabled(false);
+                                        cb[7]="o";
+                                    }
+                                    else{
+                                        if(cb[7]=="o"){
+                                            b9.setImageResource(R.drawable.imgomdpi);
+                                            b9.setEnabled(false);
+                                            cb[9]="o";
+                                        }
+                                    }
+                                }
+                            }
+                            else{
+                                if(tst3==16){
+                                    b7.setImageResource(R.drawable.imgomdpi);
+                                    b7.setEnabled(false);
+                                    cb[7]="o";
+                                }
+                                else{
+                                    if(tst3==17){
+                                        b4.setImageResource(R.drawable.imgomdpi);
+                                        b4.setEnabled(false);
+                                        cb[4]="o";
+                                    }
+                                    else{
+                                        if(tst3==18){
+                                            b7.setImageResource(R.drawable.imgomdpi);
+                                            b7.setEnabled(false);
+                                            cb[7]="o";
+                                        }
+                                        else{
+                                            if(tst3==20){
+                                                b6.setImageResource(R.drawable.imgomdpi);
+                                                b6.setEnabled(false);
+                                                cb[6]="o";
+                                            }
+                                            else{
+                                                if(tst3==21){
+                                                    b4.setImageResource(R.drawable.imgomdpi);
+                                                    b4.setEnabled(false);
+                                                    cb[4]="o";
+                                                }
+                                                else{
+                                                    if(tst3==26){
+                                                        b8.setImageResource(R.drawable.imgomdpi);
+                                                        b8.setEnabled(false);
+                                                        cb[8]="o";
+                                                    }
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
 
@@ -261,6 +325,41 @@ public class mobil2 extends AppCompatActivity {
                                                         cb[1]="o";
                                                         tst3=22;
                                                     }
+                                                    else{
+                                                        if(tst3==30){
+                                                            b2.setImageResource(R.drawable.imgomdpi);
+                                                            b2.setEnabled(false);
+                                                            cb[2]="o";
+                                                        }
+                                                        else{
+                                                            if(tst3==31){
+                                                                b6.setImageResource(R.drawable.imgomdpi);
+                                                                b6.setEnabled(false);
+                                                                cb[6]="o";
+                                                            }
+                                                            else{
+                                                                if(tst3==32){
+                                                                    b4.setImageResource(R.drawable.imgomdpi);
+                                                                    b4.setEnabled(false);
+                                                                    cb[4]="o";
+                                                                }
+                                                                else{
+                                                                    if(tst3==33){
+                                                                        b2.setImageResource(R.drawable.imgomdpi);
+                                                                        b2.setEnabled(false);
+                                                                        cb[2]="o";
+                                                                    }
+                                                                    else{
+                                                                        if(tst3==34){
+                                                                            b4.setImageResource(R.drawable.imgomdpi);
+                                                                            b4.setEnabled(false);
+                                                                            cb[4]="o";
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
 
                                                 }
                                             }
@@ -334,7 +433,7 @@ public class mobil2 extends AppCompatActivity {
                                             b7.setImageResource(R.drawable.imgomdpi);
                                             b7.setEnabled(false);
                                             cb[7]="o";
-                                            tst3=29;
+                                            tst3=26;
                                         }
                                     }
 
