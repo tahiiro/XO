@@ -24,11 +24,11 @@ public class mobil2 extends AppCompatActivity {
     int tst3;
 
 
-    public void open1(){
+    public void open1(){                                                    //menu
         Intent inte=new Intent(this,sratrt.class);
         startActivities(new Intent[]{inte});
     }
-    public void open2(){                                                    // set action for  restart the game
+    public void open2(){                                                    // set fonction for  restart the game
         Intent inte=new Intent(this,mobil2.class);
         startActivities(new Intent[]{inte});
     }
@@ -1093,8 +1093,5 @@ public class mobil2 extends AppCompatActivity {
 
             }
         });
-
-
-
     }
 }
