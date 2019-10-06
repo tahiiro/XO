@@ -355,6 +355,13 @@ public class mobil2 extends AppCompatActivity {
                                                                             b4.setEnabled(false);
                                                                             cb[4]="o";
                                                                         }
+                                                                        else{
+                                                                            if(tst3==38){
+                                                                                b8.setImageResource(R.drawable.imgomdpi);
+                                                                                b8.setEnabled(false);
+                                                                                cb[8]="o";
+                                                                            }
+                                                                        }
                                                                     }
                                                                 }
                                                             }
